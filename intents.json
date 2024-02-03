@@ -1,0 +1,130 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "recommendation",
+        "patterns": [
+          "What recipes do you like?",
+          "What do you recommend?",
+          "favorite food"
+        ],
+        "responses": [
+          "Grilled halloumi",
+          "Chicken shawarma",
+          "Tuna mayo pasta"
+        ]
+      },
+      {
+        "tag": "chicken",
+        "patterns": [
+          "What can I make with chicken?",
+          "I have chicken",
+          "Chicken recipes"
+        ],
+        "responses": [
+          "Molokhieyeh",
+          "chicken fajita",
+          "fried chicken",
+          "chicken shawarama"
+        ]
+      },
+      {
+        "tag": "beef",
+        "patterns": [
+          "What can I make with beef?",
+          "I have beef",
+          "beef recipes"
+        ],
+        "responses": [
+          "beef stew",
+          "Chilli con carne",
+          "Kafta",
+          "tan tam men",
+          "beef stir fry(Chinjao rosu)"
+        ]
+      },
+      {
+        "tag": "egg",
+        "patterns": [
+          "What can I make with eggs?",
+          "I have eggs",
+          "egg recipes"
+        ],
+        "responses": [
+          "omelette",
+          "awarama eggs",
+          "Oyako-don"
+        ]
+      },
+      {
+        "tag": "lentil",
+        "patterns": [
+          "What can I make with lentils?",
+          "I have lentils",
+          "lentils recipes",
+          "vegetarian"
+        ],
+        "responses": [
+          "mujaddara",
+          "lentil soup",
+          "lentil curry",
+          "mudardara"
+        ]
+      },
+      {
+        "tag": "cheese",
+        "patterns": [
+          "What can I make with cheese?",
+          "I have cheese",
+          "cheese recipes"
+        ],
+        "responses": [
+          "Grilled halloumi",
+          "cheese omelette",
+          "Cheese and tomato pasta"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
